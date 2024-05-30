@@ -1,8 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <?php include("head.php"); ?>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
     <body>
-        <?php include("header.php"); ?>
+      <header>
+          <div class="banner">
+              <h1>Title</h1>
+          </div>
+          <ul class="nav justify-content-center">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.php">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="faq.php">FAQ</a>
+              </li>
+              <!--
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contact</a>
+              </li>
+              -->
+              </ul>
+      </header>
         <div class="content-box">
             <div class="faq-item">
                 <div class="question">What is Lorem Ipsum?</div>
@@ -19,7 +45,18 @@
         <!-- Add more FAQ items here -->
         </div>
     
-        <?php include("footer.php"); ?>
+    <div class="content-box">
+        <h4>Follow me on Socials!</h4>
+        <hr>
+        <div>
+            <a href="https://instagram.com">
+                <img src="assets/insta.png" alt="Instagram" class="tiny-image">
+            </a> 
+        </div> 
+    </div>
+    <footer>
+        <p>&copy; My Website. All rights reserved.</p>
+    </footer>
     </body>
 
 </html>
