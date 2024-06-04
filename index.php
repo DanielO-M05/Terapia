@@ -10,7 +10,7 @@
     <body>
         <?php include("header.php"); ?>
             <div class="content-box">
-                <h1>Heading</h1> 
+                <h1>Titulo</h1> 
                 <hr style="border-top: 3px solid rgb(0, 0, 0);">
         
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 

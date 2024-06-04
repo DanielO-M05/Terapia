@@ -5,22 +5,22 @@
     </div>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">¿Que es Terapia Joven?</a>
+            <a class="nav-link" href="about.php">¿Que es Terapia Joven?</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">Tarifas</a>
+            <a class="nav-link" href="tarifas.php">Tarifas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">Equipo</a>
+            <a class="nav-link" href="equipo.php">Equipo</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="faq.html">Preguntas Frequentes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contacto</a>
+            <a class="nav-link" href="about.php">Contacto</a>
         </li>
     </ul>
 </header>
