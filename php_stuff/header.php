@@ -17,7 +17,7 @@
             <a class="nav-link" href="equipo.php">Equipo</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="faq.html">Preguntas Frequentes</a>
+            <a class="nav-link" href="faq.php">Preguntas Frequentes</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="about.php">Contacto</a>
