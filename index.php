@@ -8,31 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <header>
-            <div class="banner">
-                <h1>Title</h1>
-            </div>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">¿Que es Terapia Joven?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Tarifas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Equipo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faq.html">Preguntas Frequentes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contacto</a>
-                </li>
-                </ul>
-        </header>
+        <?php include("header.php"); ?>
             <div class="content-box">
                 <h1>Heading</h1> 
                 <hr style="border-top: 3px solid rgb(0, 0, 0);">
